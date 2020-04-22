@@ -42,7 +42,6 @@
         </div>
         <div class="col-sm-6" style="float: right;">
           <img width="100%" height="350px" :src="imgen" />
-          <div style="margin-top:25px">URL : {{ imgen }} </div>
         </div>
       </div>
     </div>
@@ -83,18 +82,7 @@ export default {
         "800",
         "900",
       ],
-      fontArray: [
-        "Arial",
-        "Segoe UI",
-        "Roboto",
-        "Helvetica Neue",
-        "Noto Sans",
-        "sans - serif",
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji",
-      ],
+      fontArray: ["Arial", "Roboto", "Noto Sans"],
     };
   },
   computed: {
